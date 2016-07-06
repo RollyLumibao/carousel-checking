@@ -88,7 +88,6 @@ jQuery(document).ready(function ($) {
                     return activeInd;
                 }
                 
-                
 
            
     function moveLeft() 
@@ -106,7 +105,8 @@ jQuery(document).ready(function ($) {
     };
 
     function moveRight()
-    {
+     {
+        
         increaseActiveNo();
          moveDots();
         $('#slider ul').animate({
